@@ -1,0 +1,1 @@
+https://free-images.com/display/smiley_angry_red_svg.html
