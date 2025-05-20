@@ -3,6 +3,7 @@
     "name": "Background Video Fix (YouTube Mobile)",
     "version": "1.0",
     "description": "Fixes the issue of playing videos in the background.",
+    "homepage_url": "https://github.com/DarthIF/Background-Video-Fix",
     "icons": {
         "48": "icons/smiley_angry_red_svg.svg"
     },
@@ -23,13 +24,21 @@
     ],
     "action": {
         "default_popup": "action/index.html",
-        "default_title": "Background Video Fix", 
+        "default_title": "Background Video Fix",
         "default_icon": {
             "16": "icons/smiley_angry_red_svg.svg",
             "32": "icons/smiley_angry_red_svg.svg",
             "48": "icons/smiley_angry_red_svg.svg",
             "96": "icons/smiley_angry_red_svg.svg",
             "128": "icons/smiley_angry_red_svg.svg"
+        }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "background-video-fix@darthif"
+        },
+        "gecko_android": {
+            "id": "background-video-fix@darthif"
         }
     }
 }
