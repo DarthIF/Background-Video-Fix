@@ -1,0 +1,28 @@
+{
+  "name": "background-video-fix",
+  "version": "1.1.0",
+  "description": "Extension for mobile Firefox browser.",
+  "keywords": [
+    "firefox-addon",
+    "firefox-extension"
+  ],
+  "homepage": "https://github.com/DarthIF/background-video-fix#readme",
+  "bugs": {
+    "url": "https://github.com/DarthIF/background-video-fix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthIF/background-video-fix.git"
+  },
+  "license": "MIT",
+  "author": "DarthIF",
+  "type": "commonjs",
+  "main": "create-zip.js",
+  "scripts": {
+    "create-zip":"node create-zip.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}
