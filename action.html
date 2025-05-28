@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="shortcut icon" type="image/svg+xml" sizes="any" href="icons/smiley_angry_red_svg.svg">
+    <title>Background Video Fix</title>
+</head>
+
+<body>
+    <main>
+        <h2 class="title">Background Video FIX</h2>
+
+        <!-- Ativar ou desativar a extensão -->
+        <div id="option_enable_video_fix" class="option-item option-item-switch">
+            <span>Enable video fix</span>
+
+            <label class="switch">
+                <input class="slider-input" type="checkbox" checked="false" />
+                <span class="slider-display" />
+                <span class="slider-border" />
+            </label>
+        </div>
+
+        <!-- Ativar ou desativar a eventos do teclado -->
+        <div id="option_enable_keyboard_events" class="option-item option-item-switch">
+            <span>Enable auto keyboard events</span>
+
+            <label class="switch">
+                <input class="slider-input" type="checkbox" checked="false" />
+                <span class="slider-display" />
+                <span class="slider-border" />
+            </label>
+        </div>
+
+    </main>
+
+    <div class="reload-message-container">
+        <div class="reload-message">
+            <span>Reload the video page if the changes have not taken effect.</span>
+        </div>
+    </div>
+
+    <script src="js/page.js" type="module"></script>
+</body>
+
+</html>
